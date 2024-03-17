@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/daily-temperatures/
 from typing import List
 def nextgreater(arr):
     stack = []
