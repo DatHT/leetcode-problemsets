@@ -4,7 +4,7 @@ class Solution:
         vowels = "aeiou"
         s = list(s)
         l,r = 0, len(s) - 1
-        for i in range(len(s)):
+        while l < r:
             if (s[l].lower() in vowels):
                 if (s[r].lower() in vowels):
                     s[l], s[r] = s[r], s[l]
