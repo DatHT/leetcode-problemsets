@@ -1,3 +1,4 @@
+package TwoPointer
 class Solution {
     fun reverseWords(s: String): String {
         val list = s.trim().split("\\s+".toRegex())
