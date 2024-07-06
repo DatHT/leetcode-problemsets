@@ -1,3 +1,5 @@
+import kotlin.math.max
+
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/
 fun lengthOfLongestSubstring(s: String): Int {
     val map = mutableMapOf<Char, Int>()

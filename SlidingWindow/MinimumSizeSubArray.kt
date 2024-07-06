@@ -1,3 +1,5 @@
+import kotlin.math.min
+
 // https://leetcode.com/problems/minimum-size-subarray-sum/description/
 fun minSubArrayLen(target: Int, nums: IntArray): Int {
     var left = 0

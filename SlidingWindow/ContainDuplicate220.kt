@@ -1,3 +1,5 @@
+import kotlin.math.abs
+
 // https://leetcode.com/problems/contains-duplicate-iii/description/
 fun containsNearbyAlmostDuplicate(nums: IntArray, indexDiff: Int, valueDiff: Int): Boolean {
     val buckets = mutableMapOf<Int, Int>()

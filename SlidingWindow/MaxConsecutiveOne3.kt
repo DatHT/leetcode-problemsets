@@ -1,3 +1,5 @@
+import kotlin.math.max
+
 // https://leetcode.com/problems/max-consecutive-ones-iii/description/
 fun longestOnes(nums: IntArray, k: Int): Int {
     var maxLength = 0
